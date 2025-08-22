@@ -43,7 +43,7 @@ export default class Home extends React.Component {
                         
 
                         <li className="nav-item ">
-                            <div className="nav-link" onClick={this.openDropDown} style={{ color: "white" }}>Register<span style={{ marginTop: "-3px" }}><i style={{ marginLeft: "10px", color: "white" }} class="arrow down"></i></span></div>
+                            <div className="nav-link" onClick={this.openDropDown} style={{ color: "white" }}>Register<span style={{ marginTop: "-3px" }}><i style={{ marginLeft: "10px", color: "white" }} className="arrow down"></i></span></div>
                             <div style={{ position: "relative", background: "black", display: "none" }} id="abc">
                                 <div style={{ position: "absolute", background: "brown", width: "100%", border: "1px solid blue", textAlign: "center" }}>
                                     <Link to="/CustomerForm" className="dropdownBox"><div className="dropdownBoxDiv">Customer</div></Link>

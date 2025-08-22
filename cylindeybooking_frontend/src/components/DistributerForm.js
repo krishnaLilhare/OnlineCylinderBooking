@@ -315,10 +315,10 @@ export default class DistributerForm extends React.Component {
                             </div>
                             <br></br>
 
-                            <div class="form-group">
+                            <div className="form-group">
                                 <label> User Name: </label>
-                                <input type="text" name="userName" class="form-control"  autocomplete="off" value={this.state.userName} onChange={this.handleChange}/>
-                                <span id="username" class="text-danger font-weight-bold">{this.state.errors.userNameerror}</span>
+                                <input type="text" name="userName" className="form-control"  autocomplete="off" value={this.state.userName} onChange={this.handleChange}/>
+                                <span id="username" className="text-danger font-weight-bold">{this.state.errors.userNameerror}</span>
                              </div>
                              <br></br>
 

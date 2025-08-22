@@ -65,7 +65,7 @@ export default class BookCylinder extends Component {
 
                         <form onSubmit={this.submitReq} className="bg-light" >
                           
-                            <div class="form-group">
+                            <div className="form-group">
                                 <label> Amount : </label>
                                 <h2>₹ 890</h2>
                              </div>
