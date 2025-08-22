@@ -132,7 +132,7 @@ export default class Login extends React.Component {
                                         <input type="text" name="userName" placeholder="username" className="form-control my-2 p-2"  ref="user" value={this.state.userName} onChange={this.handleChange} /><span className="text-danger font-weight-bold "></span>
                                     </div>
                                 </div>
-                                <div class="form-row">
+                                <div className="form-row">
                                     <div className="col-lg-7">
                                         <input type="password" name="password" placeholder="******" className="form-control my-2 p-2 "  ref="password" value={this.state.password} onChange={this.handleChange} /><span className="text-danger font-weight-bold"></span>
                                     </div>
